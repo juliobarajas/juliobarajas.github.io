@@ -1,27 +1,32 @@
-.outer-container {
+.header {
+  background-color: #F1F1F1;
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column {
+  float: left;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%
+}
+
+/* Middle column */
+.rightcolumn {
+  float: right;
+  width: 75%;
 }
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+  }
+}
 
 
