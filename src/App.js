@@ -4,20 +4,21 @@ import image from './julioimage.jpg';
 import './CSS/App.css';
 import './CSS/Sidebar.css';
 import Sidebar from './components/Sidebar';
+import About from './components/About';
 
 function App() {
   return (
     <div>
-      <div class="header">
+      <div className="header">
         <h1>Personal Website</h1>
-        
       </div>
-      <div class="leftcolumn">
+
+      <div className="leftcolumn">
         <Sidebar></Sidebar>
       </div>
-      
-      <div class="rightcolumn">
-        This is the right?
+
+      <div className="rightcolumn">
+        <About></About>
       </div>
     </div>
   );
