@@ -1,25 +1,41 @@
 .card {
+    border: 1px solid green;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(26, 22, 43);
-    padding: 20px;
-    margin: 20px 20px 20px 20px;
-    height: fit-content;
-    text-align: center;
+    padding: 70px;
+    display: inline-block;
 }
 
-.background {
-    background-image: url(/root/workspace/personal-website/portfolio-website/src/memphis.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-img {
+.myimage {
+    float: left;
     max-width: 100%;
-    height: 25%;
-    width: 30%;
-    padding: 20px;
-    border-radius: 25%;
+    width: 25%;
+    min-width: 25%;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid cyan ;
+    position: relative;
+    top: 15px;
 }
+
+.mytext {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ .mytext h3 {
+    color:cyan;
+}
+
+.socials {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: inline;
+}
+
+.socials a {
+    padding: 50px;
+}
+
