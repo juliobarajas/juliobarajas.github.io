@@ -1,15 +1,22 @@
-import React from 'react';
-import '../CSS/Navbar.css';
+import React, { Component } from 'react';
+import '../CSS/Navbar.css'
 
-export default props => {
-  return (
-  <ul className="container">
-    <li><a href="Projects">Projects</a></li>
-    <li><a href="Experience">Experience</a></li>
-    <li><a href="Skills">Skills</a></li>
-    <li><a href="Education">Education</a></li>
-    <li><a class="active" href="About">About</a></li>
-    <h3 className="name">Julio Barajas</h3>
-  </ul>
-  );
-};
+class Navbar extends Component {
+  render() {
+    return (
+      <div className = "container navbar">
+      <h3>Julio Barajas</h3> 
+      <ul>
+        <li><a class="active" href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="Experience">Experience</a></li>
+        <li><a href="Projects">Projects</a></li> 
+      </ul>
+        
+      </div>
+    );
+  }
+}
+
+export default Navbar;

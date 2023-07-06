@@ -24,16 +24,23 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  
 }
 
 .container {
+  display: flex;
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+  margin-top: 40px;
+  justify-self: center;
+  align-self: center;
 }
 
 a:hover {

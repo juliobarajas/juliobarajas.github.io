@@ -1,19 +1,16 @@
 import react from 'react';
-import './CSS/Navbar.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Education from './components/Education';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div>
-      <div>
         <Navbar></Navbar>
-      </div>
-
-      <div>
         <About></About>
-      </div>
-
+        <Education></Education>
+        <Skills></Skills>
     </div>
   );
 }

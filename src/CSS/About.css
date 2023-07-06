@@ -1,12 +1,16 @@
-.card {
-    border: 1px solid green;
-    color: white;
-    padding: 70px;
-    display: inline-block;
+.about {
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
 }
 
 .myimage {
-    float: left;
     max-width: 100%;
     width: 25%;
     min-width: 25%;
@@ -17,25 +21,23 @@
     top: 15px;
 }
 
+.socials {
+    align-self: center;
+}
+
+.socials a {
+    padding: 80px;
+}
+
 .mytext {
     position: relative;
-    margin-top: 15px;
+    margin-top: 30px;
     padding: 15px;
-    display:inline-block;
 }
 
  .mytext h3 {
     color:cyan;
 }
 
-.socials {
-    position: relative;
-    top: 100px;
-    left: 100px;
-    display: inline;
-}
 
-.socials a {
-    padding: 50px;
-}
 

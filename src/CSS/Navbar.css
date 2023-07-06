@@ -1,8 +1,10 @@
-
+.navbar {
+  justify-content: space-between;
+  align-items: baseline;
+}
 
 li {
-  display: inline;
-  float: right;
+  display: inline-flex;
 }
 
 /* Individual list elements */
@@ -12,15 +14,9 @@ li a {
   text-align: center;
 }
 
-.name {
-  color:white;
-  margin-left: 25px;
-
-}
-
 /* Change the link color on hover */
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: indianred;
   color: white;
 }
 
@@ -28,4 +24,3 @@ li a.active {
   background-color: #cf0642;
   color: white;
 }
-

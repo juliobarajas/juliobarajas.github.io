@@ -4,22 +4,28 @@ import image from '../julioimage.jpg';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import {MdEmail} from 'react-icons/md';
+import { IconContext } from 'react-icons';
 
 class About extends Component {
     render() {
         return (
-            <div className="container">
-                <img className= "myimage" src={image} alt="personal" ></img>
-                <div className="socials">
-                    <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><FaLinkedin size={50}/></a>  
-                    <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><FaGithub size={50}/></a>
-                    <a href="email" title="E-mail"><MdEmail size={50}/></a> 
+            <div className="container about" id="about">
+                <h2>About Me</h2>
+                <div className="images">
+                    <img className= "myimage" src={image} alt="personal" ></img>
+                    <div className="socials">
+                        <IconContext.Provider value={{size: 50}}>
+                            <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><FaLinkedin/></a>  
+                            <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><FaGithub/></a>
+                            <a href="email" title="E-mail"><MdEmail/></a> 
+                        </IconContext.Provider>
+                    </div>
                 </div>
                 
                 <div className="mytext">
                     <h3>HEY THERE,</h3>
                     <h1>I'm Julio.</h1>
-                    <p>As a recent graduate from the University of Memphis with a degree in Computer Science, I am eager to begin my career in the technology industry. I enjoy coding and problem-solving, and I am excited to work collaboratively with others to create innovative solutions. My experience working on group projects has strengthened my ability to communicate effectively and work efficiently in a team environment. I am committed to continuous learning and improvement, and I am confident that my skills and enthusiasm will make a valuable contribution to any team.</p>
+                    <p>I'm a software developer mainly focused on frontend and web development. My favorite things of the software development process are self-learning, problem-solving, and working in a collaborative team to communicate & share knowledge. As a recent Computer Science graduate from the University of Memphis I am committed to continuous learning & improvement. I am fluent in both English & Spanish. In my free time you can catch me playing all types of video games, reading up on the latest computer hardware & technology, or playing soccer with my friends. </p>
                 </div>
             </div>
         );
