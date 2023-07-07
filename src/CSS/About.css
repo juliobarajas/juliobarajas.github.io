@@ -1,0 +1,61 @@
+.about {
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+}
+
+.myimage {
+    max-width: 100%;
+    width: 25%;
+    min-width: 25%;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid cyan ;
+    position: relative;
+    top: 15px;
+}
+
+.socials {
+    align-self: center;
+    position: relative;
+    left: 40px;
+}
+
+.socials a {
+    padding: 50px;
+}
+
+.resume {
+    position: relative;
+    right: 270px;
+}
+
+.resume a {
+    padding: 0.5rem;
+    border: 3px solid black;
+    background-color: indianred;
+    border-radius: 0.5rem;
+}
+
+.resume a:hover {
+    border: 4px solid cyan;
+}
+
+.mytext {
+    position: relative;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+ .mytext h3 {
+    color:cyan;
+}
+
+
+

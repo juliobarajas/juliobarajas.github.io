@@ -1,0 +1,44 @@
+.projects {
+    flex-direction: column;
+}
+
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indianred;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+.background:hover {
+    border: 5px solid cyan;
+    background-color: indianred;
+}
+
+.projects img {
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+.projects .img1 {
+    height: 50%; 
+    width: 75%;
+}
+
+.projects .img2 {
+    height: 10%; 
+    width: 50%;
+}
+
+.desc {
+    background-color: indianred;
+    padding: 10px;
+}
+
+.desc p, .desc h3 {
+    background-color: indianred;
+    text-align: center;
+}

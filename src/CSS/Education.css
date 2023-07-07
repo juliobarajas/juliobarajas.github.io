@@ -1,0 +1,12 @@
+.education {
+    flex-direction: column;
+}
+
+.emphasize {
+    color:cyan
+}
+
+.myschool {
+    display:flex;
+    justify-content: space-between;
+}

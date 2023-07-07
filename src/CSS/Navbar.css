@@ -1,0 +1,22 @@
+.navbar {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+li {
+  display: inline-flex;
+}
+
+/* Individual list elements */
+li a {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Change the link color on hover */
+.navbar li a:hover {
+  background-color: indianred;
+  color: white;
+}
+
