@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className = "container navbar">
       <h3>Julio Barajas</h3> 
       <ul>
-        <li><a class="active" href="#about">About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>

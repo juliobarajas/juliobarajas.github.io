@@ -15,12 +15,8 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover:not(.active) {
+.navbar li a:hover {
   background-color: indianred;
   color: white;
 }
 
-li a.active {
-  background-color: #cf0642;
-  color: white;
-}

@@ -20,6 +20,9 @@ class About extends Component {
                             <a href="#contact" title="E-mail"><MdEmail/></a> 
                         </IconContext.Provider>
                     </div>
+                    <div className="resume">
+                        <a href="">Download Resume</a>
+                    </div>
                 </div>
                 
                 <div className="mytext">
