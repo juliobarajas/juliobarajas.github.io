@@ -1,0 +1,31 @@
+.experience {
+    flex-direction: column;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary h3 {
+    margin-top: 20px;
+    color: cyan;
+}
+
+.summary ul {
+    display: list-item;
+    list-style-position: outside;
+}
+
+.summary li {
+    display: list-item;
+    list-style-type: disc;
+    margin-top: 20px;
+}
+
+.summary img {
+    height: 75%;
+    width: 75%;
+    border: 3px solid black;
+}
+

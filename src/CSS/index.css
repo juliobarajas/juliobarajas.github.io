@@ -43,6 +43,10 @@ h2 {
   align-self: center;
 }
 
+.highlight {
+  color:cyan;
+}
+
 a:hover {
   background-color: cyan;
 }
@@ -52,14 +56,16 @@ a:hover {
 /* ================= MEDIA Queries (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
   .container {
-    width: var(--container-width-md);
+    flex-direction: column;
+    
   }
 }
 
 /* ================= MEDIA Queries (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-sm);
+    flex-direction: column;
+  
   }
 }
 

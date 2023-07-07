@@ -20,6 +20,11 @@ class Skills extends Component {
                     <li>Git</li>
                     <li>MySQL</li>
                 </ul>
+                <h3 className="highlight">Certifications:</h3>
+                <div className="certifications">
+                    <a href="https://certificates.simnetonline.com/a78ddbab-de2d-4d54-8343-0272eef14f09" target ="_blank" ><i>McGraw Hill - Level 2: Excel Yellow Belt</i></a>
+                    <p><i>April 2023</i></p>
+                </div>
             </div>
         );
     }

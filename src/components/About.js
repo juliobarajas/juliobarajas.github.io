@@ -17,7 +17,7 @@ class About extends Component {
                         <IconContext.Provider value={{size: 50}}>
                             <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><FaLinkedin/></a>  
                             <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><FaGithub/></a>
-                            <a href="email" title="E-mail"><MdEmail/></a> 
+                            <a href="#contact" title="E-mail"><MdEmail/></a> 
                         </IconContext.Provider>
                     </div>
                 </div>
