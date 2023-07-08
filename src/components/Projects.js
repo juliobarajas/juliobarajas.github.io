@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../CSS/Projects.css';
-import parser from '../parser.jpg';
-import coffeemaker from '../coffeemaker.jpg'
+import parser from '../assets/parser.jpg';
+import coffeemaker from '../assets/coffeemaker.jpg';
 
 
 class Projects extends Component {

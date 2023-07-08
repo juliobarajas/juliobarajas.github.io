@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../CSS/About.css';
-import image from '../julioimage.jpg';
+import image from '../assets/julioimage.jpg';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import {MdEmail} from 'react-icons/md';
+import {BsFiletypePdf} from 'react-icons/bs';
 import { IconContext } from 'react-icons';
+import resume from '../assets/resume.pdf';
 
 class About extends Component {
     render() {
@@ -18,10 +20,8 @@ class About extends Component {
                             <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><FaLinkedin/></a>  
                             <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><FaGithub/></a>
                             <a href="#contact" title="E-mail"><MdEmail/></a> 
+                            <a href={resume} title="Download Resume" download><BsFiletypePdf/></a>
                         </IconContext.Provider>
-                    </div>
-                    <div className="resume">
-                        <a href="">Download Resume</a>
                     </div>
                 </div>
                 

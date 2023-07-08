@@ -23,10 +23,6 @@ html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-  
-}
-
 .container {
   display: flex;
   width: var(--container-width-lg);
@@ -56,16 +52,14 @@ a:hover {
 /* ================= MEDIA Queries (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
   .container {
-    flex-direction: column;
-    
+    width: var(--container-width-md);
   }
 }
 
 /* ================= MEDIA Queries (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
   .container {
-    flex-direction: column;
-  
+    width: var(--container-width-sm);
   }
 }
 

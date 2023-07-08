@@ -6,7 +6,9 @@
 
 .skills ul {
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 1.5rem;
     margin-top: 20px;
 }
 
@@ -19,6 +21,7 @@
     color: whitesmoke;
     text-align: center;
     width: 125px;
+   
 }
 
 .skills h3 {
@@ -29,4 +32,8 @@
     display:flex;
     justify-content: space-between;
 }
+
+
+       
+
 

@@ -28,7 +28,7 @@
 }
 
 .socials a {
-    padding: 50px;
+    padding: 30px;
 }
 
 .resume {
@@ -57,5 +57,9 @@
     color:cyan;
 }
 
-
+@media screen and (max-width: 600px) {
+    .myimage {
+        min-width: 50%;
+    }
+  }
 

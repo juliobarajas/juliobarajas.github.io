@@ -12,9 +12,7 @@ class Skills extends Component {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                    <li>React.js</li>
-                </ul>
-                <ul>    
+                    <li>React.js</li>  
                     <li>Django</li>
                     <li>Bash</li>
                     <li>Git</li>

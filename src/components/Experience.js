@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../CSS/Experience.css';
-import ppexample from '../ppexample.jpg';
-import ppgraph from '../ppgraph.jpg';
+import ppexample from '../assets/ppexample.jpg';
+import ppgraph from '../assets/ppgraph.jpg';
 
 class Experience extends Component {
     render() {
