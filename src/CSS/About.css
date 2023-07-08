@@ -6,8 +6,10 @@
 .images {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-content: center;
     align-items: baseline;
+    margin-top: 50px;
 }
 
 .myimage {
@@ -22,29 +24,13 @@
 }
 
 .socials {
+    justify-self: center;
     align-self: center;
-    position: relative;
-    left: 40px;
 }
 
 .socials a {
-    padding: 30px;
-}
+    padding: 0 50px;
 
-.resume {
-    position: relative;
-    right: 270px;
-}
-
-.resume a {
-    padding: 0.5rem;
-    border: 3px solid black;
-    background-color: indianred;
-    border-radius: 0.5rem;
-}
-
-.resume a:hover {
-    border: 4px solid cyan;
 }
 
 .mytext {
@@ -56,6 +42,7 @@
  .mytext h3 {
     color:cyan;
 }
+
 
 @media screen and (max-width: 600px) {
     .myimage {
