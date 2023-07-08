@@ -10,7 +10,7 @@ const Education = () => {
         <h3><i>The University of Memphis</i></h3>
         <h3><i>August 2019 - May 2023</i></h3>
       </div>
-      <p className="emphasize">Major: Computer Science</p>
+      <p className="highlight">Major: Computer Science</p>
       <p>GPA: 3.57, Dean's list student</p>
       <ul>
         <li></li>
