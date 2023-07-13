@@ -9,10 +9,13 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(26, 22, 43);
+  
   color: white;
 }
 
+body {
+  background-color: rgb(26, 22, 43);
+}
 :root {
   --container-width-lg: 75%;
   --container-width-md: 86%;

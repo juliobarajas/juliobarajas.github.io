@@ -33,6 +33,10 @@
     justify-content: space-between;
 }
 
+.certifications a:hover {
+    border: 3px solid cyan;
+}
+
 
        
 

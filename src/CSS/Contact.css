@@ -32,5 +32,6 @@ input, textarea {
     border-radius: 0.5rem;
     border: 3px solid cyan;
     resize: none;
-    color: white
+    color: white;
+    background-color: rgb(26, 22, 43);
 }
