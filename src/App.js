@@ -12,12 +12,12 @@ function App() {
     <div id="page">
         <Navbar></Navbar>
         <div id="body">
-          <About></About>
-          <Education></Education>
-          <Skills></Skills>
-          <Experience></Experience>
-          <Projects></Projects>
-          <Contact></Contact>
+          <About/>
+          <Skills/>
+          <Education/>
+          <Experience/>
+          <Projects/>
+          <Contact/>
         </div>
     </div>
   );
