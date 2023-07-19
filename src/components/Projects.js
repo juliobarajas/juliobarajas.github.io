@@ -17,7 +17,7 @@ class Projects extends Component {
                         <p>Parses uploaded or inputted grammar using regular expressions and returns a bar graph of the data collected from the user's input. Built using: Python, HTML, CSS, Django, Parsimonious Parser, and Natural Language Toolkit.</p>
                     </div>
                     <div className="links">
-                        <a href="" target="_blank">Live</a> 
+                        <a href="https://juliobarajas.pythonanywhere.com/dashboard/" target="_blank">Live</a> 
                         <a href="https://github.com/juliobarajas/English-Grammar-Parser" target="_blank">Repo</a>
                     </div>
                 </div>    
