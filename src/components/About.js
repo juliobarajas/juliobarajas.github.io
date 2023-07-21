@@ -16,7 +16,7 @@ class About extends Component {
                 <div className="images">
                     <img className= "myimage" src={image} alt="personal" ></img>
                     <div className="socials">
-                        <IconContext.Provider value={{size: 50}}>
+                        <IconContext.Provider value={{size: 70}}>
                             <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><BiLogoLinkedinSquare fill="#0A66C2"/></a>  
                             <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><BiLogoGithub fill="silver"/></a>
                             <a href={resume} title="Download Resume" download><BiSolidFilePdf fill="#F40F02"/></a>

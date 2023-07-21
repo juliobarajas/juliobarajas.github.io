@@ -17,28 +17,28 @@ class Skills extends Component {
                 <h2>My Skills</h2>
                 <ul>
                     <li>Java
-                        <li><BiLogoJava size={50} fill="#5382a1"/></li>
+                        <li><BiLogoJava size={70} fill="#5382a1"/></li>
                     </li>
                     <li>Python
-                        <li><BiLogoPython size={50} fill="#4B8BBE" /></li>
+                        <li><BiLogoPython size={70} fill="#4B8BBE" /></li>
                     </li>    
                     <li>HTML
-                        <li><BiLogoHtml5 size={50} fill="#e34c26" /></li>
+                        <li><BiLogoHtml5 size={70} fill="#e34c26" /></li>
                     </li>  
                     <li>CSS
-                        <li><BiLogoCss3 size={50} fill="#264de4" /></li>
+                        <li><BiLogoCss3 size={70} fill="#264de4" /></li>
                     </li>
                     <li>Javascript
-                        <li><BiLogoJavascript size={50} fill="#F0DB4F" /></li>
+                        <li><BiLogoJavascript size={70} fill="#F0DB4F" /></li>
                     </li>
                     <li>React.js
-                        <li><BiLogoReact size={50} fill="#61DBFB" /></li>
+                        <li><BiLogoReact size={70} fill="#61DBFB" /></li>
                     </li>  
                     <li>Django
-                        <li><BiLogoDjango size={50} fill="#092e20" /></li>
+                        <li><BiLogoDjango size={70} fill="#092e20" /></li>
                     </li>
                     <li>Git
-                        <li><BiLogoGit size={50} fill="#F1502F" /></li>
+                        <li><BiLogoGit size={70} fill="#F1502F" /></li>
                     </li>
                 </ul>
                 <h3 className="highlight">Certifications:</h3>
