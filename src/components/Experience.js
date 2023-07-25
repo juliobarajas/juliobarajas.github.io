@@ -32,7 +32,7 @@ class Experience extends Component {
                         <img src={ppgraph} alt="PeerPresents Graph"></img>
                     </div>
                     <p>Resulted in functioning data page for instructors where they can create datasets made up of specific student presentations to view student statistics. Data shown is based off chosen student presentations in the dataset and is displayed in an easy to read bar graph. Instructors are also able to change what kind of data they are viewing.</p>
-                    <p className="highlight">Leveraged knowledge in: Full stack web development, microservice architecture, Git, React.js, JSX, HTML, CSS, Javascript, MongoDB.</p>
+                    <p className="highlight">Leveraged knowledge in: Full stack web development, microservice architecture, Git, React.js, HTML, CSS, Javascript, MongoDB.</p>
                 </div>
             </div>
         );

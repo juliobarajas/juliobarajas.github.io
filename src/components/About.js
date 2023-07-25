@@ -19,7 +19,7 @@ class About extends Component {
                         <IconContext.Provider value={{size: 60}}>
                             <a href="https://www.linkedin.com/in/julio-barajas-020828271/" target="_blank" title="Linkedin"><BiLogoLinkedinSquare fill="#0A66C2"/></a>  
                             <a href="https://github.com/juliobarajas" target="_blank" title="GitHub"><BiLogoGithub fill="silver"/></a>
-                            <a href={resume} title="Download Resume" download><BiSolidFilePdf fill="#F40F02"/></a>
+                            <a href={resume} title="Download Resume" download="Julio Barajas Resume.pdf"><BiSolidFilePdf fill="#F40F02"/></a>
                             <a href="#contact" title="E-mail"><BiSolidEnvelope fill="white"/></a>     
                         </IconContext.Provider>
                     </div>

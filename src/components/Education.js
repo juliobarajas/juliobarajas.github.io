@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div className="container education" id="education">
       <h2>Education</h2>
-      <p className="emphasize">Bachelor's Degree</p>
+      <p className="emphasize">Bachelor of Science Degree</p>
       <div className="myschool">
         <h3><i>The University of Memphis</i></h3>
         <h3><i>August 2019 - May 2023</i></h3>
